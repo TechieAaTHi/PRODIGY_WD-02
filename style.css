@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff9c4; /* Soft Yellow Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #fdd835; /* Vibrant Yellow Border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fffde7; /* Lighter Yellow Box */
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #f9a825; /* Deep Yellow Title */
+    margin-bottom: 20px;
+  }
+  
+  .time-display {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fbc02d; /* Bright Yellow */
+    margin: 20px 0;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .start {
+    background-color: #76ff03; /* Bright Green */
+    color: #000;
+  }
+  
+  .stop {
+    background-color: #ff5722; /* Bright Red */
+    color: #fff;
+  }
+  
+  .reset {
+    background-color: #29b6f6; /* Vibrant Blue */
+    color: #fff;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn:active {
+    transform: scale(1);
+  }
+  
+  
